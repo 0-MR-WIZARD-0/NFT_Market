@@ -1,0 +1,12 @@
+.wrapperHeader{
+
+    display: flex;
+    justify-content: space-evenly;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+  
+}

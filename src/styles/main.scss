@@ -1,0 +1,101 @@
+@import './colors.scss';
+@import './buttons.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*,
+*::before,
+*::after {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: $white;
+    list-style-type: none;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: $backgroundColor;
+}
+
+h1,h2,h3,h4,h5,h6,span{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{ 
+    background: linear-gradient(93.8deg, #FF00AE 1.02%, #FF0066 92.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 48px;
+}
+
+h2{
+    background: linear-gradient(135deg, #FF00B8 7.81%, #FF005C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 36px;
+    text-align: center;   
+}
+
+p{
+    line-height: 2;
+}
+
+section{
+    margin-top: 40px;
+}
+
+button, li, input{
+    cursor: pointer;
+}
+
+.sectionInfo>p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gridSellers__item, .gridBids__item{
+    position: relative;
+    height: 300px;
+    width: 234px;
+    background: #202128;
+    border-radius: 20px;
+}
+
+.gridBids, .gridSellers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 60px 0;
+    justify-items: center;
+    margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.LogoAndSearch{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &>h3,img,*{
+        margin-right: 30px;
+    }
+    &>input{
+        width: 550px;
+        height: 40px;
+    }
+}
+
+input{
+    background: #1B1A21;
+    border-radius: 10px;
+    border-style: none;
+    &::placeholder{
+        color:rgba($color: $white, $alpha: .5);
+        padding-left: 40px;
+    }
+}

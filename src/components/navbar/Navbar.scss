@@ -1,0 +1,43 @@
+@import '../../styles/colors.scss';
+
+.wraperNavbar{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin-top: 30px;
+    &__ul{
+        display: flex;
+        // li{
+        //     margin-left: 80px;
+        // }
+    }
+    &__buttons{
+        &>button:nth-of-type(1){
+            width: 120px;
+            height: 40px;
+        }
+        &>button:nth-of-type(2){
+            width: 145px;
+            height: 40px;
+        }
+        &>button:nth-of-type(1)+button:nth-of-type(2){
+            margin-left: 12px;
+        }
+    }
+}
+
+.wrapperModal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    animation-name: appear;
+    animation-duration: 300ms;
+}

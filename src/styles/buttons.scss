@@ -1,0 +1,30 @@
+button{
+    border-radius: 10px;
+    border-style: none;
+}
+
+.button_fill_pink{
+        color: white;
+        background: linear-gradient(135deg, #FF00B8 7.81%, #FF005C 100%);
+}
+
+.button_fill_black{
+        border: 1px solid #FF00B8; 
+        background-color: rgba(0, 0, 0, 0);  
+        background: linear-gradient(94.47deg, #FF00AF -2.77%, #FF0067 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+}
+
+.buttonLoadMore{
+        border: 1px solid #FF00B8; 
+        background-color: rgba(0, 0, 0, 0);  
+        background: linear-gradient(94.47deg, #FF00AF -2.77%, #FF0067 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        border-radius: 10px;
+        width: 358px;
+        height: 52px;
+}

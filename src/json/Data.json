@@ -1,0 +1,101 @@
+{
+    "sellers": [
+        {
+            "id": 1,
+            "img": "./img/David.svg",
+            "verified": "./img/CheckMark.svg",
+            "nickname": "Brian Domanic",
+            "balance": 21.05
+        },
+        {
+            "id": 2,
+            "img": "./img/David.svg",
+            "verified": "./img/CheckMark.svg",
+            "nickname": "Ellin Syahnaz",
+            "balance": 20.65
+        },
+        {
+            "id": 3,
+            "img": "./img/Abraham.svg",
+            "verified": "./img/CheckMark.svg",
+            "nickname": "Abraham Lincoln",
+            "balance": 18.35
+        },
+        {
+            "id": 4,
+            "img": "./img/Arabella.svg",
+            "verified": "./img/CheckMark.svg",
+            "nickname": "Arabella Ava",
+            "balance": 10.05
+        },
+        {
+            "id": 5,
+            "img": "./img/Mike.svg",
+            "verified": "./img/CheckMark.svg",
+            "nickname": "Mike Muliadro",
+            "balance": 1.05
+        }
+    ],
+    "bids": [
+        {
+            "id": 1,
+            "img": "../img/David.svg",
+            "title": "David Art",
+            "price": 1.25
+        },
+        {
+            "id": 2,
+            "img": "../img/Spartan.svg",
+            "title": "Spartan Art",
+            "price": 1.15
+        },
+        {
+            "id": 3,
+            "img": "../img/Stone.svg",
+            "title": "Balance Stone",
+            "price": 1.13
+        },
+        {
+            "id": 4,
+            "img": "../img/Ghost.svg",
+            "title": "Ghost NFT",
+            "price": 1.05
+        },
+        {
+            "id": 5,
+            "img": "../img/Astronout.svg",
+            "title": "Astronout Art",
+            "price": 1.01
+        },
+        {
+            "id": 6,
+            "img": "../img/Face.svg",
+            "title": "Face Blood",
+            "price": 0.98
+        },
+        {
+            "id": 7,
+            "img": "../img/Tigers.svg",
+            "title": "Tigers Line",
+            "price": 0.87
+        },
+        {
+            "id": 8,
+            "img": "../img/Monster.svg",
+            "title": "Monster Art",
+            "price": 0.82
+        },
+        {
+            "id": 9,
+            "img": "../img/Tigers.svg",
+            "title": "Tigers Line",
+            "price": 0.87
+        },
+        {
+            "id": 10,
+            "img": "../img/Monster.svg",
+            "title": "Monster Art",
+            "price": 0.82
+        }
+    ]
+}

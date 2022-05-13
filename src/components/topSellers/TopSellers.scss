@@ -1,0 +1,53 @@
+.gridSellers{
+    &__item{
+        &__number{
+            position: absolute;
+            width: 41px;
+            height: 41px;
+            background: linear-gradient(135deg, #FF00B8 7.81%, #FF005C 100%);
+            mix-blend-mode: normal;
+            border-radius: 10px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            margin: 20px 0 0 20px;
+        }
+        &__wrapperImg{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 96px;
+            height: 96px;
+            &>img{
+                border-radius: 55px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__mark{
+            position: absolute;
+            top: 48%;
+            left: 58%;
+            width: 25.31px;
+            height: 25.31px;
+            border-radius: 50px;
+        }
+        &__wrapperProfile>p:first-of-type{ 
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            min-width: 230px;
+        }
+        &__wrapperProfile>p:last-of-type{
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            min-width: 230px;
+        }
+    }
+}

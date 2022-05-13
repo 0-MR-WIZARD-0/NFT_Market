@@ -1,0 +1,14 @@
+.wrapperFooter{
+    border-top: 1px solid #323238;
+    &>div:nth-of-type(1){
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        &>div>p{
+            margin-top: 40px;
+        }
+        &>div>ul>li{
+            margin-top: 10px;
+        }
+    }
+}
