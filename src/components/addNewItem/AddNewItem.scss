@@ -1,0 +1,76 @@
+@import '../../styles/colors.scss';
+
+.wrapperAddNewItem {
+    display: flex;
+    min-width: 650px;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color:#24252D;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+
+        &>input {
+            height: 40px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+
+        &>select {
+            height: 40px;
+            background: #1B1A21;
+            border-radius: 10px;
+            border-style: none;
+            margin-bottom: 30px;
+            // &::placeholder{
+                //     color:rgba($color: $white, $alpha: .5);
+                //     padding-left: 40px;
+                // }
+                &>option{
+                    border-radius:50px;
+                    padding: 10px 10px;
+                    margin: 10px 10px;
+                }
+        }
+
+        &>button{
+            height: 40px;
+        }
+    }
+
+}
+
+input[type=file] {
+    outline: 0;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    position: absolute;
+}
+
+.label {
+    width: 250px;
+    height: 250px;
+    border: 2px dashed grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.title {
+    color: grey;
+}
+
+.label:hover {
+    border: 2px solid #000;
+}

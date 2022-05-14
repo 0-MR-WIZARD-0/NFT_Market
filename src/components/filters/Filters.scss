@@ -1,0 +1,36 @@
+.wrapperFilters{
+    height: 100%;
+    &>*{
+        width: 100%;
+    }
+    &>span{
+        display: block;
+        margin-bottom: 20px;
+    }
+    &>select{
+        height: 40px;
+        background: #1B1A21;
+        border-radius: 10px;
+        border-style: none;
+        margin-bottom: 10px;
+    }
+    
+}
+
+.wrapperRange{
+    &__InputsRange{
+        margin-bottom: 20px;
+    }
+    &__MinMax{
+        display: flex;
+        justify-content: space-around;
+        &>input{
+            height: 40px;
+            width: 100px;
+            &::placeholder{
+                padding-left: 0px;
+                text-align: center;
+            }
+        }
+    }
+}

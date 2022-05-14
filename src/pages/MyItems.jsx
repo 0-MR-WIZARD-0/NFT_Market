@@ -1,8 +1,11 @@
 import React from 'react'
+import Items from '../components/items/Items'
 
 const MyItems = () => {
   return (
-    <div>MyItems</div>
+    <main>
+      <Items/>
+    </main>
   )
 }
 
